@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>FaceBot</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/facebotmain.css" rel="stylesheet" />
+    <link href="css/eyeAnimation.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="row botface">
+        <div id="puple" class="neutral">
+            <div class="col-lg-6 eyeSocket">
+                <div id="leftEye" class="eyecube"></div>
+            </div>
+            <div class="col-lg-6 eyeSocket">
+                <div id="rightEye" class="eyecube"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="position: absolute;z-index: 100;top: 0;width: 50%;">
+        <div class="col-lg-3">
+            <select class="form-control" id="moodControl">
+                <option value="neutral" data-animation="">neutral</option>
+                <option value="blink_high" data-animation="bounceInUp">blink high</option>
+                <option value="happy" data-animation="shake">happy</option>
+                <option value="glee" data-animation="jello">glee</option>
+                <option value="blink_low" data-animation="bounceInDown">blink low</option>
+                <option value="sad_low" data-animation="pulse">sad low</option>
+                <option value="sad_high" data-animation="pulse">sad high</option>
+                <option value="worried" data-animation="jackInTheBox">worried</option>
+                <option value="determined" data-animation="flash">determined</option>
+                <option value="annoyed" data-animation="fadeInUp">annoyed</option>
+                <option value="surprised" data-animation="tada">surprised</option>
+                <option value="skeptic" data-animation="pulse">skeptic</option>
+                <option value="bored" data-animation="swing">bored</option>
+                <option value="unimpressed" data-animation="fadeInUp">unimpressed</option>
+                <option value="sleepy" data-animation="zoomIn">sleepy</option>
+                <option value="suspicious" data-animation="jello">suspicious</option>
+                <option value="squint" data-animation="pulse">squint</option>
+                <option value="angry" data-animation="">angry</option>                
+                <option value="furious" data-animation="">furious</option>
+                <option value="scared" data-animation="">scared</option>
+                <option value="slept" data-animation="">slept</option>                                
+            </select>
+        </div>
+    </div>
+    <script>
+        $(function() {
+            $("#moodControl").bind("change", function() {
+                var anim = "";
+                $("#puple").removeClass().addClass($(this).val());
+                 if($($(this).find(":selected")).data("animation") != "")
+                anim =" animated " + $($(this).find(":selected")).data("animation");
+               $(".eyecube").removeClass().addClass("eyecube" + anim);
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+.neutral .eyecube {
+    height: 30%;
+    width: 30%;
+    border-radius: 5px;
+    bottom: 40%;
+    left: 36%;
+}
+
+.blink_high .eyecube {
+    height: 1%;
+    width: 85%;
+    border-radius: 5px;
+    bottom: 65%;
+    left: 10%;
+}
+
+.happy .eyecube {
+    height: 5%;
+    width: 30%;
+    border-radius: 75px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    bottom: 70%;
+    left: 36%;
+}
+
+.glee .eyecube {
+    height: 2%;
+    width: 30%;
+    border-radius: 75px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    bottom: 70%;
+    left: 36%;
+}
+
+.blink_low .eyecube {
+    height: 1%;
+    width: 85%;
+    border-radius: 5px;
+    bottom: 40%;
+    left: 10%;
+}
+
+.sad_low .eyecube {
+    height: 8%;
+    width: 30%;
+    border-radius: 5px;
+    bottom: 30%;
+    left: 36%;
+}
+
+.sad_low .eyecube#leftEye {
+    border-top-left-radius: 100%;
+}
+
+.sad_low .eyecube#rightEye {
+    border-top-right-radius: 100%;
+}
+
+.sad_high .eyecube {
+    height: 13%;
+    width: 30%;
+    border-radius: 5px;
+    bottom: 65%;
+    left: 36%;
+}
+
+.sad_high .eyecube#leftEye {
+    border-top-left-radius: 100%;
+}
+
+.sad_high .eyecube#rightEye {
+    border-top-right-radius: 100%;
+}
+
+.worried .eyecube {
+    width: 30%;
+    border-radius: 5px;
+    bottom: 40%;
+    left: 36%;
+}
+
+.worried .eyecube#leftEye {
+    height: 13%;
+    border-top-left-radius: 100%;
+}
+
+.worried .eyecube#rightEye {
+    height: 20%;
+    border-top: 50px solid transparent;
+    border-left: 100px solid #2196F3;
+    border-bottom: 50px solid transparent;
+}
+
+.determined .eyecube {
+    height: 15%;
+    width: 30%;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    bottom: 40%;
+    left: 36%;
+}
+
+.annoyed .eyecube {
+    width: 30%;
+    border-radius: 0px;
+    left: 36%;
+}
+
+.annoyed .eyecube#leftEye {
+    bottom: 40%;
+    height: 5%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.annoyed .eyecube#rightEye {
+    bottom: 40%;
+    height: 10%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.surprised .eyecube {
+    height: 40%;
+    width: 40%;
+    border-radius: 40px;
+    bottom: 35%;
+    left: 31%;
+}
+
+.skeptic .eyecube {
+    height: 30%;
+    width: 30%;
+    border-radius: 5px;
+    bottom: 40%;
+    left: 36%;
+}
+
+.skeptic .eyecube#rightEye {
+    border-top-left-radius: 60%;
+}
+
+.bored .eyecube {
+    width: 30%;
+    border-radius: 0px;
+    left: 36%;
+    bottom: 40%;
+}
+
+.bored .eyecube#leftEye {
+    height: 5%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.bored .eyecube#rightEye {
+    height: 5%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.unimpressed .eyecube {
+    width: 30%;
+    border-radius: 0px;
+    left: 36%;
+    bottom: 40%;
+}
+
+.unimpressed .eyecube#leftEye {
+    height: 5%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.unimpressed .eyecube#rightEye {
+    height: 10%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.sleepy .eyecube {
+    width: 30%;
+    border-radius: 5px;
+    left: 36%;
+    bottom: 40%;
+}
+
+.sleepy .eyecube#leftEye {
+    height: 10%;
+    transform: skewY(-10deg);
+}
+
+.sleepy .eyecube#rightEye {
+    height: 5%;
+    transform: skewY(10deg);
+}
+
+.suspicious .eyecube {
+    width: 30%;
+    border-radius: 0px;
+    left: 36%;
+    bottom: 40%;
+}
+
+.suspicious .eyecube#leftEye {
+    height: 15%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.suspicious .eyecube#rightEye {
+    height: 10%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.squint .eyecube {
+    width: 30%;
+    border-radius: 0px;
+    left: 36%;
+    bottom: 40%;
+}
+
+.squint .eyecube {
+    height: 10%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}

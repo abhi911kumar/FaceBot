@@ -1,0 +1,27 @@
+html,
+body {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.botface,
+#puple {
+    height: 100%;
+    width: 100%;
+}
+
+.eyeSocket {
+    height: 100%;
+    position: relative;
+}
+
+.eyecube {
+    background: rgb(2, 131, 232);
+    position: absolute;
+    box-shadow: 0px 0px 0px 5px #2196F3;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
